@@ -1,74 +1,132 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GTA V - Grand Theft Auto V</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GTA V Fanpage</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Ikony Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <nav id="navbar">
-        <div class="logo">
-            GTA <span class="text-primary">V</span>
-        </div>
-        <ul>
-            <li><a href="#home"><i class="fa-solid fa-house"></i> Úvod</a></li>
-            <li><a href="#postavy"><i class="fa-solid fa-users"></i> Postavy</a></li>
-            <li><a href="#online"><i class="fa-solid fa-gamepad"></i> GTA Online</a></li>
-            <li><a href="#kontakt"><i class="fa-solid fa-envelope"></i> Kontakt</a></li>
-        </ul>
+  <!-- Horní navigace -->
+  <header class="navbar">
+    <div class="logo">GTA V</div>
+    <nav>
+      <ul>
+        <li>
+          <a href="#uvod">
+            <i class="fa-solid fa-house"></i>
+            <span class="menu-text">Úvod</span>
+          </a>
+        </li>
+        <li>
+          <a href="#postavy">
+            <i class="fa-solid fa-users"></i>
+            <span class="menu-text">Postavy</span>
+          </a>
+        </li>
+        <li>
+          <a href="#gta-online">
+            <i class="fa-solid fa-gamepad"></i>
+            <span class="menu-text">GTA Online</span>
+          </a>
+        </li>
+        <li>
+          <a href="#kontakt">
+            <i class="fa-solid fa-envelope"></i>
+            <span class="menu-text">Kontakt</span>
+          </a>
+        </li>
+      </ul>
     </nav>
+  </header>
 
-    <header id="home">
-        <div class="header-content">
-            <h1>Grand Theft Auto V</h1>
-            <p>Vítejte ve světě Los Santos a Blaine County</p>
-        </div>
-    </header>
+  <!-- Hlavní obsah -->
+  <main class="container">
+    
+    <!-- SEKCE: Úvod -->
+    <section id="uvod" class="card">
+      <h2><i class="fa-solid fa-circle-info"></i> Úvod: O čem je hra?</h2>
+      <p>
+        <strong>Grand Theft Auto V</strong> je akční hra v otevřeném světě odehrávající se ve fiktivním státě San Andreas a v prostředí velkoměsta Los Santos. Příběh sleduje osudy tří velmi odlišných zločinců, kteří spojí svoje síly při sérii nebezpečných bankovních loupeží pod tlakem vládních agentur i zločineckého podsvětí.
+      </p>
+    </section>
 
-  
-    <main class="container">
-        
+    <!-- SEKCE: Postavy -->
+    <section id="postavy" class="card">
+      <h2><i class="fa-solid fa-users"></i> Hlavní Postavy</h2>
+
+      <div class="hero-box">
+        <h3><i class="fa-solid fa-user-tie"></i> Michael De Santa</h3>
+        <p>Bývalý úspěšný bankovní lupič, který žije v luxusní vile v Rockford Hills v programu na ochranu svědků se svou komplikovanou rodinou.</p>
+      </div>
+
+      <div class="hero-box">
+        <h3><i class="fa-solid fa-car"></i> Franklin Clinton</h3>
+        <p>Mladý a ambiciózní pouliční zabavovač aut z South Los Santos, který touží po velkých penězích a lepším životě mimo pouliční gangy.</p>
+      </div>
+
+      <div class="hero-box">
+        <h3><i class="fa-solid fa-plane"></i> Trevor Philips</h3>
+        <p>Nezpytatelný, agresivní a sociopatický bývalý vojenský pilot žijící v karavanu v pouštní oblasti Sandy Shores.</p>
+      </div>
+    </section>
+
+    <!-- SEKCE: GTA Online -->
+    <section id="gta-online" class="card">
+      <h2><i class="fa-solid fa-gamepad"></i> GTA Online</h2>
+      <p>
+        <strong>Co je to GTA Online?</strong> Jedná se o dynamický multiplayerový svět pro až 30 hráčů, který neustále roste. Vytvoříte si vlastní postavu, stoupáte po žebříčku podsvětí a budujete své vlastní zločinecké impérium.
+      </p>
       
-        <section id="postavy">
-            <h2>Hlavní Hrdinové</h2>
-            
-            <article class="card">
-                <h3><i class="fa-solid fa-user-secret"></i> Michael De Santa</h3>
-                <p>Bývalý bankovní lupič, který žije v luxusní vile v Rockford Hills v programu na ochranu svědků.</p>
-            </article>
+      <h3 style="color: #fff; margin-top: 15px;">Co všechno tam můžeš dělat?</h3>
+      <ul style="margin-left: 20px; margin-top: 10px;">
+        <li><strong>Plnit Heisty:</strong> Plánovat a provádět velké týmové loupeže (Cayo Perico, Diamond Casino, Doomsday Heist).</li>
+        <li><strong>Budovat Byznys:</strong> Vlastnit a spravovat motorkářské kluby, noční kluby, nelegální pěstírny, bunkry či vývoz aut.</li>
+        <li><strong>Závodit a upravovat auta:</strong> Nakupovat stovky supersportů, motorek i letecké techniky a upravovat je v tunerských dílnách.</li>
+        <li><strong>Plnit mise a výzvy:</strong> Hrát PvP režimy, komunitní závody, mise pro VIP nebo jen tak řádit s přáteli po celém San Andreas.</li>
+      </ul>
+    </section>
 
-            <article class="card">
-                <h3><i class="fa-solid fa-car"></i> Franklin Clinton</h3>
-                <p>Mladý pouliční zabavovač aut z South Los Santos, který touží po velkých penězích a lepším životě.</p>
-            </article>
+  </main>
 
-            <article class="card">
-                <h3><i class="fa-solid fa-skull"></i> Trevor Philips</h3>
-                <p>Nepředvídatelný a sociopatický bývalý vojenský pilot žijící v pouštním Sandy Shores.</p>
-            </article>
-        </section>
+    <section id="challenge" class="card challenge-card">
+      <h2><i class="fa-solid fa-dice"></i> Náhodná výzva pro GTA Online</h2>
+      <div class="challenge-box">
+        <p class="challenge-label">Výzva dne:</p>
+        <p id="challenge-text" class="challenge-output"></p>
+      </div>
+      <div class="challenge-box accent-box">
+        <p class="challenge-label">Bonus:</p>
+        <p id="reward-text" class="challenge-output"></p>
+      </div>
+      <button id="generate-button" type="button" class="generate-button">
+        <i class="fa-solid fa-arrows-rotate"></i> Vygenerovat další
+      </button>
+    </section>
 
-        <aside>
-            <h3><i class="fa-solid fa-circle-info"></i> Rychlá fakta</h3>
-            <ul>
-                <li><strong>Vývojář:</strong> Rockstar North</li>
-                <li><strong>Vydavatel:</strong> Rockstar Games</li>
-                <li><strong>Město:</strong> Los Santos</li>
-                <li><strong>Režimy:</strong> Singleplayer & Online</li>
-            </ul>
-        </aside>
+  </main>
 
-    </main>
+  <!-- Zápatí / Kontakt -->
+  <footer id="kontakt">
+    <h2 style="color: #4caf50;"><i class="fa-solid fa-envelope"></i> Kontakt</h2>
+    <p>Oficiální e-mail podpory vývojářů Rockstar Games:</p>
+    <p>
+      <a href="mailto:support@rockstargames.com" style="color: #4caf50; font-size: 1.1rem; font-weight: bold; text-decoration: none;">
+        <i class="fa-solid fa-paper-plane"></i> support@rockstargames.com
+      </a>
+    </p>
 
-    <footer id="kontakt">
-        <p>&copy; 2026 GTA V Fanpage. Vytvořeno pro školní projekt.</p>
-    </footer>
+    <!-- Validátory -->
+    <div class="validator-links" style="margin-top: 15px;">
+      <a href="https://validator.w3.org/check?uri=referer" target="_blank" rel="noopener">HTML Validace</a>
+      <span>|</span>
+      <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank" rel="noopener">CSS Validace</a>
+    </div>
+  </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
